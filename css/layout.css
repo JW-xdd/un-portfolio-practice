@@ -13,6 +13,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(214, 210, 210);
+  background-color: rgb(88, 92, 98);
 }
 
 
@@ -164,6 +166,10 @@ body {
 
     .gallery-image-container.half-width {
       width: calc((100% - 16px) / 2);
+    }
+
+    .gallery-image-continer.quarter-width {
+      width : calc((100% - 16px) / 4);
     }
 
     .gallery-image {
